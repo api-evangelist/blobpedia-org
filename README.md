@@ -1,4 +1,4 @@
-# blobpedia-org
+# BLOBPEDIA
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-blobpedia-org is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://blobpedia.org/
+BLOBPEDIA is the central knowledge hub for the Celestia ecosystem, providing indexed, searchable CIPs, documentation, whitepapers, discussions and ecosystem activity. It offers a unified full‑text search across the modular data‑availability layer and node documentation, serving developers and community members.
+
+**Areas:** Company · Celestia · KnowledgeHub · Documentation · Community · OpenSource
+
+## BLOBPEDIA on APIs.io
+
+Everything profiled for BLOBPEDIA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blobpedia-org/](https://apis.io/providers/blobpedia-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [BLOBPEDIA REST API](https://apis.io/apis/blobpedia-org/blobpedia-rest-api/) — Public, unauthenticated REST API over the BLOBPEDIA corpus.
+- [BLOBPEDIA Analytics API](https://apis.io/apis/blobpedia-org/blobpedia-org-analytics-api/) — Search popularity, CSP violations
+- [BLOBPEDIA CIPs API](https://apis.io/apis/blobpedia-org/blobpedia-org-cips-api/) — Celestia Improvement Proposals
+- [BLOBPEDIA Discovery API](https://apis.io/apis/blobpedia-org/blobpedia-org-discovery-api/) — Activity stream, sources catalog
+- [BLOBPEDIA Discussions API](https://apis.io/apis/blobpedia-org/blobpedia-org-discussions-api/) — Forum, GitHub Discussions
+- [BLOBPEDIA Documentation API](https://apis.io/apis/blobpedia-org/blobpedia-org-documentation-api/) — docs.celestia.org pages, whitepapers
+- [BLOBPEDIA GitHub API](https://apis.io/apis/blobpedia-org/blobpedia-org-github-api/) — Issues, PRs, releases, repos
+- [BLOBPEDIA Meta API](https://apis.io/apis/blobpedia-org/blobpedia-org-meta-api/) — API self-description
+- [BLOBPEDIA Network API](https://apis.io/apis/blobpedia-org/blobpedia-org-network-api/) — On-chain state, market data, stats
+- [BLOBPEDIA Search API](https://apis.io/apis/blobpedia-org/blobpedia-org-search-api/) — Full-text + fuzzy search across all sources
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Blobpedia Org Agentic Access](https://apis.io/agentic-access/blobpedia-org/blobpedia-org-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blobpedia Org Context](https://apis.io/jsonld/blobpedia-org/blobpedia-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BLOBPEDIA API Rules](https://apis.io/rules/blobpedia-org/blobpedia-org-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blobpedia Org Authentication](https://apis.io/security/blobpedia-org/blobpedia-org-authentication/)
+- [Blobpedia Org Domain Security](https://apis.io/security/blobpedia-org/blobpedia-org-domain-security/)
+- [Blobpedia Org Vulnerability Disclosure](https://apis.io/security/blobpedia-org/blobpedia-org-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blobpedia.org/)
+- [Documentation](https://blobpedia.org/docs)
+- [Getting started](https://blobpedia.org/docs/50)
+- [API reference](https://blobpedia.org/api/v1/reference)
+- [Changelog](https://blobpedia.org/releases)
+- [Blog](https://blobpedia.org/blog)
+- [Security](https://blobpedia.org/security)
+- [Terms of service](https://blobpedia.org/terms)
+- [Privacy policy](https://blobpedia.org/privacy)
+- [GitHub](https://github.com/evstack)
+
+## API Evangelist rating
+
+**Kin Score 47.8** — developing · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 44.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blobpedia-org/](https://apis.io/providers/blobpedia-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BLOBPEDIA: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blobpedia-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
